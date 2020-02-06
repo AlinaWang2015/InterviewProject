@@ -9,6 +9,9 @@ b = sys.stdin.readline().replace('\n', '')
 c = [a[i:i + 8] for i in range(0, len(a), 8)]
 d = [b[i:i + 8] for i in range(0, len(b), 8)]
 z = c + d
+print(c)
+print(d)
+print(z)
 for i in z:
     if len(i) < 8:
         x = i + (8 - len(i)) * '0'
