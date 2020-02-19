@@ -46,7 +46,7 @@ for i in range(len(myList)):
 # 栈
 def printLinkedListReversingly_stack(pHead):
     if pHead.value==None:
-    return False
+       return False
     tempList = []
     while pHead.value:
         tempList.append(pHead.value)
